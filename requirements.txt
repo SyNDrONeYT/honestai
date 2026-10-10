@@ -1,0 +1,18 @@
+# Core
+numpy>=1.24
+
+# Fine-tuning (Section 3.4: QLoRA on Llama-2-7b-chat)
+torch>=2.1
+transformers>=4.40
+peft>=0.10
+bitsandbytes>=0.43
+trl>=0.8
+datasets>=2.18
+accelerate>=0.29
+
+# RAG / pruner (Section 3.5: Sentence-BERT retrieval + pruning)
+sentence-transformers>=2.6
+
+# Optional: only needed if you back score_single's llm_judge with Anthropic/OpenAI
+# anthropic>=0.34
+# openai>=1.30
